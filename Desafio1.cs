@@ -2,7 +2,7 @@ using System;
 
 class Program
 {
-    static int CalcularDano(int ataque, int defesa)
+    static int CalcularDano(int ataque, int defesa) 
     {
       int dano = ataque - defesa;
         if (dano < 0) {
